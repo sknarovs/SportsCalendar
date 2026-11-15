@@ -1,0 +1,65 @@
+name: Release
+
+# Pushing a tag such as v1.0.0 builds the Raspberry Pi (aarch64) binary and
+# publishes it as a GitHub Release. Tags containing "-" (v1.1.0-rc.1) become
+# prereleases, which the Pi's run.sh ignores.
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    name: Build linux-aarch64
+    runs-on: ubuntu-24.04-arm
+    # Debian 12 links the binary against glibc 2.36, the oldest Debian that DietPi v10 supports.
+    container: debian:bookworm
+    timeout-minutes: 30
+    steps:
+      - name: Install native toolchain
+        run: |
+          apt-get update
+          apt-get install -y --no-install-recommends ca-certificates curl git gcc libc6-dev zlib1g-dev
+      - uses: actions/checkout@v7
+      - uses: graalvm/setup-graalvm@v1
+        with:
+          java-version: '25'
+          distribution: graalvm-community
+      - uses: gradle/actions/setup-gradle@v6
+      - name: Test and build native binary
+        run: ./gradlew test nativeCompile
+      - name: Smoke-test native binary
+        run: build/native/nativeCompile/sports-calendar --test
+      - name: Package
+        run: |
+          mkdir dist
+          cp build/native/nativeCompile/sports-calendar dist/sports-calendar-linux-aarch64
+          cd dist
+          sha256sum sports-calendar-linux-aarch64 > sports-calendar-linux-aarch64.sha256
+      - uses: actions/upload-artifact@v7
+        with:
+          name: sports-calendar-linux-aarch64
+          path: dist/
+          if-no-files-found: error
+
+  release:
+    name: Publish release
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/download-artifact@v8
+        with:
+          name: sports-calendar-linux-aarch64
+          path: dist
+      - name: Create GitHub release
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          prerelease=()
+          if [[ "$GITHUB_REF_NAME" == *-* ]]; then prerelease=(--prerelease); fi
+          gh release create "$GITHUB_REF_NAME" dist/* --repo "$GITHUB_REPOSITORY" \
+            --title "$GITHUB_REF_NAME" --generate-notes "${prerelease[@]}"
