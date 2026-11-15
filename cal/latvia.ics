@@ -1,0 +1,406 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//SportsCalendar//Latvia national teams//LV
+CALSCALE:GREGORIAN
+X-WR-CALNAME:Latvija – futbols un telpu futbols
+X-WR-TIMEZONE:Europe/Riga
+REFRESH-INTERVAL;VALUE=DURATION:PT12H
+X-PUBLISHED-TTL:PT12H
+BEGIN:VTIMEZONE
+TZID:Europe/Riga
+BEGIN:DAYLIGHT
+TZOFFSETFROM:+0200
+TZOFFSETTO:+0300
+TZNAME:EEST
+DTSTART:19700329T030000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=-1SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:+0300
+TZOFFSETTO:+0200
+TZNAME:EET
+DTSTART:19701025T040000
+RRULE:FREQ=YEARLY;BYMONTH=10;BYDAY=-1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:lff-20494816@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20251116T190000
+DTEND;TZID=Europe/Riga:20251116T210000
+SUMMARY:Serbija 2-1 Latvija (2026. gada Pasaules kausa kvalifikācija\, 1. 
+ kārta)
+DESCRIPTION:Serbija 2-1 Latvija\n\nVārti:\nSerbija: 49' Aleksandar Katai\,
+  60' Aleksandar Stanković\nLatvija: 12' Vladislavs Gutkovskis\n\nStadions
+ : Gradski stadion Dubočica\n\nSpēle: https://lff.lv/speles/serbija-latvi
+ ja-20494816/
+LOCATION:Gradski stadion Dubočica
+URL:https://lff.lv/speles/serbija-latvija-20494816/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23186688@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20251217T170000
+DTEND;TZID=Europe/Riga:20251217T184500
+SUMMARY:Latvija 4-7 Kosova (Starptautisks telpu futbola turnīrs Čehijā)
+DESCRIPTION:Latvija 4-7 Kosova\n\nVārti:\nLatvija: 2' Artjoms Troickis\, 2
+ 2' Andžejs Mickēvičs\, 30' Edgars Tarakanovs\, 32' Andrejs Baklanovs\nK
+ osova: 8' Drilon Maxharraj\, 10' Drilon Haxhijaj\, 16' Drilon Maxharraj\, 
+ 24' Shqiperim Imeri\, 25' Drilon Maxharraj\, 31' Drilon Haxhijaj\, 38' Shq
+ iperim Imeri\n\nStadions: Klimeška sport hall\n\nSpēle: https://lff.lv/s
+ peles/latvija-kosova-23186688/
+LOCATION:Klimeška sport hall
+URL:https://lff.lv/speles/latvija-kosova-23186688/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23186689@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20251218T200000
+DTEND;TZID=Europe/Riga:20251218T214500
+SUMMARY:Latvija 1-1 Čehija (Starptautisks telpu futbola turnīrs Čehijā)
+DESCRIPTION:Latvija 1-1 Čehija\n\nVārti:\nLatvija: 39' Andrejs Baklanovs\
+ nČehija: 34' Francisco Fernandes Mikus\n\nStadions: Klimeška sport hall\
+ n\nSpēle: https://lff.lv/speles/latvija-cehija-23186689/
+LOCATION:Klimeška sport hall
+URL:https://lff.lv/speles/latvija-cehija-23186689/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23186692@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20251220T170000
+DTEND;TZID=Europe/Riga:20251220T184500
+SUMMARY:Lietuva 4-1 Latvija (Starptautisks telpu futbola turnīrs Čehijā)
+DESCRIPTION:Lietuva 4-1 Latvija\n\nVārti:\nLietuva: 22' Paulius Osauskas\,
+  27' Albert Voskunovič\, 39' Justinas Zagurskas\, 39' Vladimir Derendiaje
+ v\nLatvija: 25' Germans Matjušenko\n\nStadions: Klimeška sport hall\n\nS
+ pēle: https://lff.lv/speles/lietuva-latvija-23186692/
+LOCATION:Klimeška sport hall
+URL:https://lff.lv/speles/lietuva-latvija-23186692/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23012918@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260121T200000
+DTEND;TZID=Europe/Riga:20260121T214500
+SUMMARY:Latvija 4-0 Gruzija (Euro 2026 finālturnīrs telpu futbolā)
+DESCRIPTION:Latvija 4-0 Gruzija\n\nVārti:\nLatvija: 2' Germans Matjušenko
+ \, 24' Edgars Tarakanovs\, 26' Edgars Tarakanovs\, 39' Andrejs Baklanovs\n
+ \nStadions: Arēna Rīga\n\nSpēle: https://lff.lv/speles/latvija-gruzija-
+ 23012918/
+LOCATION:Arēna Rīga
+URL:https://lff.lv/speles/latvija-gruzija-23012918/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23012938@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260125T170000
+DTEND;TZID=Europe/Riga:20260125T184500
+SUMMARY:Francija 5-0 Latvija (Euro 2026 finālturnīrs telpu futbolā)
+DESCRIPTION:Francija 5-0 Latvija\n\nVārti:\nFrancija: 23' Souheil Mouhoudi
+ ne\, 29' Sid Belhaj\, 32' Souheil Mouhoudine\, 35' Abdessamad Mohammed\, 3
+ 9' Mamadou Touré\n\nStadions: Arēna Rīga\n\nSpēle: https://lff.lv/spel
+ es/francija-latvija-23012938/
+LOCATION:Arēna Rīga
+URL:https://lff.lv/speles/francija-latvija-23012938/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23012948@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260128T173000
+DTEND;TZID=Europe/Riga:20260128T191500
+SUMMARY:Latvija 1-4 Horvātija (Euro 2026 finālturnīrs telpu futbolā)
+DESCRIPTION:Latvija 1-4 Horvātija\n\nVārti:\nLatvija: 4' Edgars Tarakanov
+ s\nHorvātija: 19' Josip Jurlina\, 24' Luka Perić\, 30' Lima\, 35' David 
+ Mataja\n\nStadions: Arēna Rīga\n\nSpēle: https://lff.lv/speles/latvija-
+ horvatija-23012948/
+LOCATION:Arēna Rīga
+URL:https://lff.lv/speles/latvija-horvatija-23012948/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-20454927@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260326T190000
+DTEND;TZID=Europe/Riga:20260326T210000
+SUMMARY:Gibraltārs 0-1 Latvija (Pārspēles par vietu UEFA Nāciju C līg
+ ā\, 1/16 fināls)
+DESCRIPTION:Gibraltārs 0-1 Latvija\n\nVārti:\nLatvija: 64' Vladislavs Gut
+ kovskis\n\nStadions: Europa Point Stadium\n\nSpēle: https://lff.lv/speles
+ /gibraltars-latvija-20454927/
+LOCATION:Europa Point Stadium
+URL:https://lff.lv/speles/gibraltars-latvija-20454927/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-20454956@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260331T190000
+DTEND;TZID=Europe/Riga:20260331T210000
+SUMMARY:Latvija 1-0 Gibraltārs (Pārspēles par vietu UEFA Nāciju C līg
+ ā\, 1. kārta)
+DESCRIPTION:Latvija 1-0 Gibraltārs\n\nVārti:\nLatvija: 90+3' Antonijs Če
+ rnomordijs\n\nStadions: Skonto Stadions\n\nSpēle: https://lff.lv/speles/l
+ atvija-gibraltars-20454956/
+LOCATION:Skonto Stadions
+URL:https://lff.lv/speles/latvija-gibraltars-20454956/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23373442@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260409T140000
+DTEND;TZID=Europe/Riga:20260409T154500
+SUMMARY:Latvija 8-0 Sanmarīno (2028. gada PK telpu futbolā kvalifikācija
+ s priekšsacīkstes)
+DESCRIPTION:Latvija 8-0 Sanmarīno\n\nVārti:\nLatvija: 0' Viktors Kuļepov
+ s\, 7' Artjoms Kozlovskis\, 12' Edgars Tarakanovs\, 15' Miks Babris\, 15' 
+ Artjoms Kozlovskis\, 23' Miks Babris\, 28' Andrejs Baklanovs\nSanmarīno: 
+ 20' Matteo Moretti\n\nStadions: Hall Tirana Olimpik Park\n\nSpēle: https:
+ //lff.lv/speles/latvija-sanmarino-23373442/
+LOCATION:Hall Tirana Olimpik Park
+URL:https://lff.lv/speles/latvija-sanmarino-23373442/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23373462@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260410T140000
+DTEND;TZID=Europe/Riga:20260410T154500
+SUMMARY:Kipra 1-12 Latvija (2028. gada PK telpu futbolā kvalifikācijas pr
+ iekšsacīkstes)
+DESCRIPTION:Kipra 1-12 Latvija\n\nVārti:\nKipra: 17' Charis Koulloupas\, 3
+ 3' Christos Stylianou\nLatvija: 4' Andžejs Mickēvičs\, 9' Renards Ūdri
+ s\, 10' Edgars Tarakanovs\, 12' Andrejs Baklanovs\, 17' Sergejs Motiļs\, 
+ 20' Viktors Kuļepovs\, 20' Andrejs Baklanovs\, 22' Edgars Tarakanovs\, 25
+ ' Artjoms Kozlovskis\, 31' Vlads Rimkus\, 39' Renards Ūdris\n\nStadions: 
+ Hall Tirana Olimpik Park\n\nSpēle: https://lff.lv/speles/kipra-latvija-23
+ 373462/
+LOCATION:Hall Tirana Olimpik Park
+URL:https://lff.lv/speles/kipra-latvija-23373462/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23373492@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260412T213000
+DTEND;TZID=Europe/Riga:20260412T231500
+SUMMARY:Albānija 2-3 Latvija (2028. gada PK telpu futbolā kvalifikācijas
+  priekšsacīkstes)
+DESCRIPTION:Albānija 2-3 Latvija\n\nVārti:\nAlbānija: 1' Arif Limani\, 3
+ 1' Arif Limani\nLatvija: 2' Andrejs Baklanovs\, 11' Miks Babris\, 16' Vlad
+ s Rimkus\n\nStadions: Hall Tirana Olimpik Park\n\nSpēle: https://lff.lv/s
+ peles/albanija-latvija-23373492/
+LOCATION:Hall Tirana Olimpik Park
+URL:https://lff.lv/speles/albanija-latvija-23373492/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23383506@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260606T160000
+DTEND;TZID=Europe/Riga:20260606T180000
+SUMMARY:Lietuva 1-1 Latvija (5-4 pēcsp.) (Baltijas kauss nacionālajām iz
+ lasēm 2026\, 1. kārta)
+DESCRIPTION:Lietuva 1-1 Latvija\nPēcspēles sitieni: 5-4\n\nVārti:\nLietu
+ va: 28' Armandas Kučys\, P Motiejus Burba\, P Arvydas Novikovas\, P Edgar
+ as Utkus\, P Armandas Kučys\, P Gvidas Gineitis\nLatvija: 60' Maksims To
+ ņiševs\, P Mārtiņš Ķigurs\, P Marko Regža\, P Aleksejs Saveļjevs\,
+  P Andrejs Cigaņiks\n\nStadions: Dariaus ir Girėno stadionas\n\nSpēle: 
+ https://lff.lv/speles/lietuva-latvija-23383506/
+LOCATION:Dariaus ir Girėno stadionas
+URL:https://lff.lv/speles/lietuva-latvija-23383506/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-24680804@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260609T180000
+DTEND;TZID=Europe/Riga:20260609T200000
+SUMMARY:Latvija 0-1 Fēru salas (Baltijas kauss nacionālajām izlasēm 202
+ 6\, 2. kārta)
+DESCRIPTION:Latvija 0-1 Fēru salas\n\nVārti:\nFēru salas: 81' Hanus Sør
+ ensen\n\nStadions: LNK Sporta Parks (dabīgais)\n\nSpēle: https://lff.lv/
+ speles/latvija-feru-salas-24680804/
+LOCATION:LNK Sporta Parks (dabīgais)
+URL:https://lff.lv/speles/latvija-feru-salas-24680804/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697190@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260925T190000
+DTEND;TZID=Europe/Riga:20260925T210000
+SUMMARY:Armēnija 2-0 Latvija (2027. gada UEFA Nāciju līga - C2 grupa\, 1
+ . kārta)
+DESCRIPTION:Armēnija 2-0 Latvija\n\nVārti:\nArmēnija: 31' Georgii Arutiu
+ nian\, 75' Artur Garibyan\n\nStadions: Republican Stadium after Vazgen Sar
+ gsyan\n\nSpēle: https://lff.lv/speles/armenija-latvija-23697190/
+LOCATION:Republican Stadium after Vazgen Sargsyan
+URL:https://lff.lv/speles/armenija-latvija-23697190/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697220@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20260928T190000
+DTEND;TZID=Europe/Riga:20260928T210000
+SUMMARY:Latvija 0-0 Kipra (2027. gada UEFA Nāciju līga - C2 grupa\, 1. k
+ ārta)
+DESCRIPTION:Latvija 0-0 Kipra\n\nStadions: Skonto Stadions\n\nSpēle: https
+ ://lff.lv/speles/latvija-kipra-23697220/
+LOCATION:Skonto Stadions
+URL:https://lff.lv/speles/latvija-kipra-23697220/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697230@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261002T190000
+DTEND;TZID=Europe/Riga:20261002T210000
+SUMMARY:Latvija 1-2 Melnkalne (2027. gada UEFA Nāciju līga - C2 grupa\, 1
+ . kārta)
+DESCRIPTION:Latvija 1-2 Melnkalne\n\nVārti:\nLatvija: 82' Markuss Strods\n
+ Melnkalne: 3' Vasilije Adžić\, 56' Vasilije Adžić\n\nStadions: Skonto 
+ Stadions\n\nSpēle: https://lff.lv/speles/latvija-melnkalne-23697230/
+LOCATION:Skonto Stadions
+URL:https://lff.lv/speles/latvija-melnkalne-23697230/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697260@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261005T190000
+DTEND;TZID=Europe/Riga:20261005T210000
+SUMMARY:Kipra 2-1 Latvija (2027. gada UEFA Nāciju līga - C2 grupa\, 1. k
+ ārta)
+DESCRIPTION:Kipra 2-1 Latvija\n\nVārti:\nKipra: 70' Ioannis Costi\, 90+4' 
+ Marcus Edwards\nLatvija: 57' Eduards Dašķevičs\n\nStadions: GSP\n\nSpē
+ le: https://lff.lv/speles/kipra-latvija-23697260/
+LOCATION:GSP
+URL:https://lff.lv/speles/kipra-latvija-23697260/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-25833756@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261016T203000
+DTEND;TZID=Europe/Riga:20261016T221500
+SUMMARY:Latvija 2-2 Ukraina (Pārbaudes spēle telpu futbolā)
+DESCRIPTION:Latvija 2-2 Ukraina\n\nVārti:\nLatvija: 9' Renards Ūdris\, 33
+ ' Miks Babris\nUkraina: 5' Danyil Abakshyn\, 37' Vladyslav Pervieiev\n\nSt
+ adions: Rimi OSC (Sporta spēļu zāle)\n\nSpēle: https://lff.lv/speles/l
+ atvija-ukraina-25833756/
+LOCATION:Rimi OSC (Sporta spēļu zāle)
+URL:https://lff.lv/speles/latvija-ukraina-25833756/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-25367826@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261020T193000
+DTEND;TZID=Europe/Riga:20261020T211500
+SUMMARY:Čehija 3-3 Latvija (2028. gada PK telpu futbolā kvalifikācijas p
+ amatkārta\, 1. kārta)
+DESCRIPTION:Čehija 3-3 Latvija\n\nVārti:\nČehija: 21' Michal Seidler\, 2
+ 7' Dušan Künstner\, 31' Dušan Künstner\nLatvija: 19' Andžejs Mickēvi
+ čs\, 21' Renards Ūdris\, 32' Renards Ūdris\n\nStadions: Hala Opava\n\nS
+ pēle: https://lff.lv/speles/cehija-latvija-25367826/
+LOCATION:Hala Opava
+URL:https://lff.lv/speles/cehija-latvija-25367826/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-25367858@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261108T180000
+DTEND;TZID=Europe/Riga:20261108T194500
+SUMMARY:Azerbaidžāna 1-5 Latvija (2028. gada PK telpu futbolā kvalifikā
+ cijas pamatkārta\, 1. kārta)
+DESCRIPTION:Azerbaidžāna 1-5 Latvija\n\nVārti:\nAzerbaidžāna: 36' Niha
+ d Ismayilov\nLatvija: 1' Renards Ūdris\, 6' Edgars Tarakanovs\, 8' Renard
+ s Ūdris\, 10' Andrejs Baklanovs\, 26' Miks Babris\n\nStadions: Baku Sport
+ s Hall\n\nSpēle: https://lff.lv/speles/azerbaidzana-latvija-25367858/
+LOCATION:Baku Sports Hall
+URL:https://lff.lv/speles/azerbaidzana-latvija-25367858/
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697280@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261112T214500
+DTEND;TZID=Europe/Riga:20261112T234500
+SUMMARY:Melnkalne 2-1 Latvija (2027. gada UEFA Nāciju līga - C2 grupa\, 1
+ . kārta)
+DESCRIPTION:Melnkalne 2-1 Latvija\n\nVārti:\nMelnkalne: 70' Nikola Krstovi
+ ć\, 90+1' Aleksa Maraš\nLatvija: 72' Deniss Meļņiks\n\nStadions: Podgo
+ rica City Stadium\n\nSpēle: https://lff.lv/speles/melnkalne-latvija-23697
+ 280/
+LOCATION:Podgorica City Stadium
+URL:https://lff.lv/speles/melnkalne-latvija-23697280/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-23697290@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;TZID=Europe/Riga:20261115T160000
+DTEND;TZID=Europe/Riga:20261115T180000
+SUMMARY:Latvija vs Armēnija (2027. gada UEFA Nāciju līga - C2 grupa\, 1.
+  kārta)
+DESCRIPTION:Latvija vs Armēnija\n\nStadions: Skonto Stadions\n\nSpēle: ht
+ tps://lff.lv/speles/latvija-armenija-23697290/
+LOCATION:Skonto Stadions
+URL:https://lff.lv/speles/latvija-armenija-23697290/
+CATEGORIES:Futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-25367874@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;VALUE=DATE:20270227
+DTEND;VALUE=DATE:20270228
+SUMMARY:Latvija vs Azerbaidžāna (2028. gada PK telpu futbolā kvalifikāc
+ ijas pamatkārta\, 1. kārta)
+DESCRIPTION:Latvija vs Azerbaidžāna
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+BEGIN:VEVENT
+UID:lff-25367890@sportscalendar
+DTSTAMP:20261115T153345Z
+DTSTART;VALUE=DATE:20270303
+DTEND;VALUE=DATE:20270304
+SUMMARY:Latvija vs Čehija (2028. gada PK telpu futbolā kvalifikācijas pa
+ matkārta\, 1. kārta)
+DESCRIPTION:Latvija vs Čehija
+CATEGORIES:Telpu futbols
+STATUS:CONFIRMED
+END:VEVENT
+END:VCALENDAR
