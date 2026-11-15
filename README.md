@@ -5,8 +5,9 @@ national football team** and the **Latvian men's national futsal team**.
 
 Match dates, kick-off times, venues, final scores and goalscorers come from the
 official Latvian Football Federation (LFF) website, [lff.lv](https://lff.lv).
-A GitHub Actions cron job on a Raspberry Pi (DietPi) refreshes the calendar
-every day and publishes it to the `calendar` branch of this repository.
+GitHub Actions builds a native binary and publishes tagged releases; a daily
+cron job on a Raspberry Pi (DietPi) downloads it, refreshes the calendar and
+pushes the result to the `calendar` branch of this repository.
 
 ## Subscribe
 
