@@ -102,6 +102,20 @@ ssh-keygen -t ed25519 -N '' -f ~/.ssh/sports_calendar
 cat ~/.ssh/sports_calendar.pub
 ```
 
+If the Pi uses other SSH keys as well, select this one for GitHub:
+
+```sshconfig
+Host github.com
+  IdentityFile ~/.ssh/sports_calendar
+  IdentitiesOnly yes
+```
+
+Then test the key before relying on cron:
+
+```bash
+ssh -T git@github.com
+```
+
 `run.sh` pulls the latest calendar branch, installs the newest release binary
 when its tag changed, runs the built-in self-test, regenerates the calendar and
 commits/pushes only when the output changed. Install it as a daily cron job,
